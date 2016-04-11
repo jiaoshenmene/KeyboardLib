@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'  
   s.requires_arc = true  
   
-  s.source_files = 'KeyBoardLib/**/*.{h,m}'  , 'Pods/**/*.{h,m}'
-  # s.resources = 'Assets'  
+  s.source_files = 'KeyBoardLib/**/*'  , 'Pods/**/*.{h,m}'
+  #s.resources = 'KeyBoardLib/Base.lproj/*'   
   
   # s.ios.exclude_files = 'Classes/osx'  
   # s.osx.exclude_files = 'Classes/ios'  
